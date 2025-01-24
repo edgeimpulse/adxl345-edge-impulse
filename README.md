@@ -6,7 +6,6 @@ User Particle tools to install this library into your project. Either Workbench 
 Alternative option is to copy / paste following files into your project:
 - `adxl345.cpp`
 - `adxl345.h`
-- `binary.h`
 
 ## Example
 The included example shows how to retrieve data from the sensor and forward the data over serial.
@@ -19,8 +18,4 @@ Edge Impulse enabled running neural networks on Particle hardware. Follow this [
 
 ### Use the data forwarder to upload sensor data directly into your project
 Using the `data-forwarder` example, sensor data can be uploaded to an Edge Impulse studio project directly. This [docs page](https://docs.edgeimpulse.com/docs/tools/edge-impulse-cli/cli-data-forwarder) explains how to hook up hardware to Edge Impulse studio.
-
-
-Original library created by Kenneth Lim <kennethlimcp@gmail.com>
-
 
